@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(228, 219, 219);
+    width: 900px;
+    height: 800px;
+}
+
+main {
+    background-color: rgb(148, 144, 144);
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.tela {
+    background-color: rgb(10, 16, 19);
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.botoes {
+
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numeral {
+
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.operadores {
+
+    width: 130px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.numeral div {
+
+    margin: 0 auto auto;
+
+}
+
+.numeral button {
+    padding: 25px;
+}
+
+.operadores div {
+
+    margin-bottom: 8px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.operadores button {
+    padding: 25px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(143, 125, 160);
+    font-weight: bolder;
+}
